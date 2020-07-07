@@ -891,7 +891,7 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
     .single_services .services_icon .services_shape {
-      fill: #fff1f1;
+      fill: #b054c04d;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -900,7 +900,7 @@ p {
   .single_services .services_content {
     margin-top: 40px; }
     .single_services .services_content .services_title a {
-      font-size: 28px;
+      font-size: 27px;
       color: #38424D;
       font-weight: 600;
       -webkit-transition: all 0.3s ease-out 0s;
@@ -918,18 +918,18 @@ p {
         .single_services .services_content .services_title a {
           font-size: 20px; } }
       .single_services .services_content .services_title a:hover {
-        color: #F94F4F; }
+        color: #9e40af; }
     .single_services .services_content p {
       margin-top: 15px; }
   .single_services.active, .single_services:hover {
-    border-color: #F94F4F;
+    border-color:  #9e40af;
     -webkit-box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15);
     -moz-box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15);
     box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15); }
     .single_services.active .services_icon i, .single_services:hover .services_icon i {
       color: #fff; }
     .single_services.active .services_icon .services_shape, .single_services:hover .services_icon .services_shape {
-      fill: #F94F4F; }
+      fill:  #9e40af; }
 
 /*===========================
         04.ABOUT css 
@@ -1000,10 +1000,10 @@ p {
         font-size: 16px;
         width: 27px;
         height: 27px;
-        line-height: 27px;
+        line-height: 28px;
         text-align: center;
         color: #fff;
-        background-color: #F94F4F;
+        background-color: #9544ad;
         border-radius: 50%;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
@@ -1024,14 +1024,15 @@ p {
 .single_work {
   -webkit-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
   -moz-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
-  box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
+  box-shadow: 0px 3px 27px 0px rgba(153, 62, 153, 0.246);
   border-radius: 10px;
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #fff; }
   .single_work .work_image img {
-    width: 100%; }
+    width: 100%; 
+    height: 40vh;}
   .single_work .work_content {
     padding: 30px;
     position: relative; }
@@ -1056,10 +1057,10 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .single_work .work_content .arrow:hover {
-        background-color: #F94F4F;
+        background-color: #8f4baf;
         color: #fff; }
     .single_work .work_content .work_title a {
-      font-size: 28px;
+      font-size: 26px;
       font-weight: 600;
       color: #38424D;
       -webkit-transition: all 0.3s ease-out 0s;
@@ -1077,12 +1078,12 @@ p {
         .single_work .work_content .work_title a {
           font-size: 20px; } }
       .single_work .work_content .work_title a:hover {
-        color: #F94F4F; }
+        color: #8f4baf; }
     .single_work .work_content p {
       margin-top: 8px; }
 
 .slick-current .single_work .work_content .arrow {
-  background-color: #F94F4F;
+  background-color: #8f4baf;
   color: #fff; }
 
 .work_active .slick-dots {
@@ -1098,14 +1099,14 @@ p {
       width: 14px;
       height: 14px;
       border-radius: 50%;
-      background-color: rgba(249, 79, 79, 0.25);
+      background-color: #9e5fbb71;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
     .work_active .slick-dots li.slick-active button {
-      background-color: #F94F4F; }
+      background-color: #8f4baf }
 
 /*===========================
     06.PRICING PLAN css 
@@ -1233,7 +1234,8 @@ p {
   .single_team .team_image {
     position: relative; }
     .single_team .team_image img {
-      width: 100%; }
+      width: 100%;
+      height: 40vh; }
     .single_team .team_image .social {
       position: absolute;
       top: 15px;
@@ -1255,10 +1257,11 @@ p {
         .single_team .team_image .social li a {
           width: 35px;
           height: 35px;
-          line-height: 31px;
+          line-height: 32px;
           text-align: center;
-          border: 2px solid #fff;
-          color: #fff;
+          background-color: rgba(244, 209, 246, 0.801);
+          border: 2px solid rgb(81, 26, 95);
+          color: rgba(156, 59, 168, 0.979);
           border-radius: 50%;
           font-size: 16px;
           -webkit-transition: all 0.3s ease-out 0s;
@@ -1267,7 +1270,7 @@ p {
           -o-transition: all 0.3s ease-out 0s;
           transition: all 0.3s ease-out 0s; }
           .single_team .team_image .social li a:hover {
-            background-color: #8a2ea7;
+            background-color: #faf9fa;
             border-color:  #8a2ea7; }
   .single_team .team_content {
     padding: 20px 30px;
@@ -1286,6 +1289,7 @@ p {
           font-size: 20px; } }
     .single_team .team_content p {
       margin-top: 8px;
+      font-size: 1.2em;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -1729,3 +1733,11 @@ p.form-message.success, p.form-message.error {
           .contact_social .social li a:hover {
             color: #8534bbdc;
             background-color: #fff; }
+
+                /*===== workshop icons =====*/
+        .icons8-c{ 
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDIgQyAyNC4yODUxNTYgMiAyMy41NzQyMTkgMi4xNzk2ODggMjIuOTMzNTk0IDIuNTM5MDYzIEwgNi4wODk4NDQgMTIuMDAzOTA2IEMgNC44MDg1OTQgMTIuNzI2NTYzIDQgMTQuMDc0MjE5IDQgMTUuNTM1MTU2IEwgNCAzNC40NjQ4NDQgQyA0IDM1LjkyOTY4OCA0LjgwODU5NCAzNy4yNzczNDQgNi4wODk4NDQgMzggTCAyMi45MzM1OTQgNDcuNDYwOTM4IEMgMjQuMjE0ODQ0IDQ4LjE4MzU5NCAyNS43ODUxNTYgNDguMTgzNTk0IDI3LjA2NjQwNiA0Ny40NjA5MzggTCA0My45MTAxNTYgMzggQyA0NS4xOTUzMTMgMzcuMjc3MzQ0IDQ2IDM1LjkyNTc4MSA0NiAzNC40NjQ4NDQgTCA0NiAxNS41MzUxNTYgQyA0NiAxNC4wNzQyMTkgNDUuMTkxNDA2IDEyLjcyNjU2MyA0My45MTAxNTYgMTIuMDAzOTA2IEwgMjcuMDY2NDA2IDIuNTM5MDYzIEMgMjYuNDI1NzgxIDIuMTc5Njg4IDI1LjcxNDg0NCAyIDI1IDIgWiBNIDI1IDQgQyAyNS4zNzUgNCAyNS43NTM5MDYgNC4wOTM3NSAyNi4wODk4NDQgNC4yODEyNSBMIDQyLjkzMzU5NCAxMy43NDYwOTQgQyA0My42MDE1NjMgMTQuMTI1IDQ0IDE0LjgwNDY4OCA0NCAxNS41MzUxNTYgTCA0NCAyNCBMIDQyIDI0IEwgNDIgMjIgTCA0MCAyMiBMIDQwIDI0IEwgMzggMjQgTCAzOCAyNiBMIDQwIDI2IEwgNDAgMjggTCA0MiAyOCBMIDQyIDI2IEwgNDQgMjYgTCA0NCAzNC40NjQ4NDQgQyA0NCAzNS4xOTUzMTMgNDMuNjAxNTYzIDM1Ljg3NSA0Mi45Mjk2ODggMzYuMjUzOTA2IEwgMjYuMDg5ODQ0IDQ1LjcxODc1IEMgMjUuNDE3OTY5IDQ2LjA5Mzc1IDI0LjU4MjAzMSA0Ni4wOTM3NSAyMy45MTAxNTYgNDUuNzE4NzUgTCA3LjA3MDMxMyAzNi4yNTM5MDYgQyA2LjM5ODQzOCAzNS44NzUgNiAzNS4xOTkyMTkgNiAzNC40NjQ4NDQgTCA2IDE1LjUzNTE1NiBDIDYgMTQuODA0Njg4IDYuMzk4NDM4IDE0LjEyNSA3LjA3MDMxMyAxMy43NDYwOTQgTCAyMy45MTAxNTYgNC4yODEyNSBDIDI0LjI0NjA5NCA0LjA5Mzc1IDI0LjYyNSA0IDI1IDQgWiBNIDI1IDEyIEMgMTcuODM5ODQ0IDEyIDEyIDE3LjgzOTg0NCAxMiAyNSBDIDEyIDMyLjE2MDE1NiAxNy44Mzk4NDQgMzggMjUgMzggQyAyOS4wODk4NDQgMzggMzIuODg2NzE5IDM2LjA5Mzc1IDM1LjMzOTg0NCAzMi44NjMyODEgTCAzNi4wMjM0MzggMzEuOTYwOTM4IEwgMjkuOTY4NzUgMjguNDUzMTI1IEwgMjkuNDIxODc1IDI5LjA0Njg3NSBDIDI4LjI5Mjk2OSAzMC4yODEyNSAyNi42OTE0MDYgMzEgMjUgMzEgQyAyMS42ODM1OTQgMzEgMTkgMjguMzE2NDA2IDE5IDI1IEMgMTkgMjEuNjgzNTk0IDIxLjY4MzU5NCAxOSAyNSAxOSBDIDI2LjY5MTQwNiAxOSAyOC4yOTI5NjkgMTkuNzE4NzUgMjkuNDIxODc1IDIwLjk1MzEyNSBMIDI5Ljk2ODc1IDIxLjU0Njg3NSBMIDM2LjAyMzQzOCAxOC4wMzkwNjMgTCAzNS4zMzk4NDQgMTcuMTM2NzE5IEMgMzIuODg2NzE5IDEzLjkwNjI1IDI5LjA4OTg0NCAxMiAyNSAxMiBaIE0gMjUgMTQgQyAyOC4wNzQyMTkgMTQgMzAuODg2NzE5IDE1LjMxNjQwNiAzMi45NDUzMTMgMTcuNTExNzE5IEwgMzAuMjAzMTI1IDE5LjA5NzY1NiBDIDI4Ljc1NzgxMyAxNy44MzIwMzEgMjYuOTYwOTM4IDE3IDI1IDE3IEMgMjAuNTk3NjU2IDE3IDE3IDIwLjU5NzY1NiAxNyAyNSBDIDE3IDI5LjQwMjM0NCAyMC41OTc2NTYgMzMgMjUgMzMgQyAyNi45NjA5MzggMzMgMjguNzU3ODEzIDMyLjE2Nzk2OSAzMC4yMDMxMjUgMzAuOTAyMzQ0IEwgMzIuOTQ1MzEzIDMyLjQ4ODI4MSBDIDMwLjg4NjcxOSAzNC42ODM1OTQgMjguMDc0MjE5IDM2IDI1IDM2IEMgMTguOTI1NzgxIDM2IDE0IDMxLjA3NDIxOSAxNCAyNSBDIDE0IDE4LjkyNTc4MSAxOC45MjU3ODEgMTQgMjUgMTQgWiBNIDMzIDIyIEwgMzMgMjQgTCAzMSAyNCBMIDMxIDI2IEwgMzMgMjYgTCAzMyAyOCBMIDM1IDI4IEwgMzUgMjYgTCAzNyAyNiBMIDM3IDI0IEwgMzUgMjQgTCAzNSAyMiBaIj48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+             background-size: 100%; }
