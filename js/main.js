@@ -55,6 +55,110 @@ $(function () {
     });
 
 
+    //===== slick Work
+    
+    $('.work_active').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        centerMode: true,
+        centerPadding: '360px',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+            breakpoint: 1600,
+            settings: {
+                slidesToShow: 3,
+                centerPadding: '300px',
+            }
+        },
+        {
+            breakpoint: 1400,
+            settings: {
+                slidesToShow: 3,
+                centerPadding: '140px',
+            }
+        },
+            {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                centerPadding: '80px',
+            }
+        },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                centerPadding: '0',
+                centerMode: false,
+            }
+        },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                centerPadding: '0',
+                centerMode: false,
+            }
+        },
+            {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '0',
+                centerMode: false,
+            }
+        }
+      ]
+    });
+
+    
+    //====== slick Team
+
+    $('.team_active').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        centerMode: true,
+        centerPadding: '0',
+        slidesToShow: 3,
+        slidesToScroll: 4,
+        responsive: [
+            {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+            {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+      ]
+    });
+
     //===== Back to top
 
     // Show or hide the sticky footer button
@@ -86,6 +190,12 @@ $(function () {
     
 
     //===== 
+
+
+
+
+
+
 
 
 
