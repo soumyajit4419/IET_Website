@@ -9,7 +9,7 @@ $(function () {
     });
 
 
-   //===== Sticky
+    //===== Sticky
 
     $(window).on('scroll', function (event) {
         var scroll = $(window).scrollTop();
@@ -20,7 +20,7 @@ $(function () {
         }
     });
 
-    
+
     //===== Section Menu Active
 
     var scrollLink = $('.page-scroll');
@@ -38,8 +38,8 @@ $(function () {
             }
         });
     });
-    
-    
+
+
     //===== close navbar-collapse when a  clicked
 
     $(".navbar-nav a").on('click', function () {
@@ -56,7 +56,7 @@ $(function () {
 
 
     //===== slick Work
-    
+
     $('.work_active').slick({
         dots: true,
         arrows: false,
@@ -70,54 +70,54 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-            breakpoint: 1600,
-            settings: {
-                slidesToShow: 3,
-                centerPadding: '300px',
-            }
-        },
-        {
-            breakpoint: 1400,
-            settings: {
-                slidesToShow: 3,
-                centerPadding: '140px',
-            }
-        },
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: '300px',
+                }
+            },
             {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-                centerPadding: '80px',
-            }
-        },
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: '140px',
+                }
+            },
             {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 2,
-                centerPadding: '0',
-                centerMode: false,
-            }
-        },
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: '80px',
+                }
+            },
             {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                centerPadding: '0',
-                centerMode: false,
-            }
-        },
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: '0',
+                    centerMode: false,
+                }
+            },
             {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
-                centerPadding: '0',
-                centerMode: false,
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: '0',
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0',
+                    centerMode: false,
+                }
             }
-        }
-      ]
+        ]
     });
 
-    
+
     //====== slick Team
 
     $('.team_active').slick({
@@ -133,30 +133,30 @@ $(function () {
         slidesToScroll: 4,
         responsive: [
             {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
             {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 2,
-            }
-        },
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
             {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-            }
-        },
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
             {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
             }
-        }
-      ]
+        ]
     });
 
     //===== Back to top
@@ -181,22 +181,25 @@ $(function () {
     });
 
     //=====  WOW active
-    
+
     var wow = new WOW({
         boxClass: 'wow', //
         mobile: false, // 
     })
     wow.init();
-    
 
-    //===== 
-
-
-
-
-
-
-
-
-
+    //=====//
 });
+
+$('.testimonial-active').slick({
+    dots: false, arrows: true, prevArrow: '<span class="prev"><i class="lni-arrow-left"></i></span>',
+    nextArrow: '<span class="next"><i class="lni-arrow-right"></i></span>',
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 800,
+    slidesToShow: 1,
+});
+
+
+

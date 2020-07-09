@@ -222,7 +222,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #F94F4F #F94F4F #E8E8E8;
+      border-color: #8e4797 #6a1f81 #E8E8E8;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -1122,7 +1122,7 @@ p {
 /*===========================
     06.PRICING PLAN css 
 ===========================*/
-.pricing_menu .nav {
+/* .pricing_menu .nav {
   overflow: hidden; }
   .pricing_menu .nav .nav-item a {
     width: 120px;
@@ -1220,7 +1220,7 @@ p {
       fill: #F94F4F; }
     .single_pricing.active .pricing_content .main-btn, .single_pricing:hover .pricing_content .main-btn {
       background-color: #F94F4F;
-      color: #fff; }
+      color: #fff; } */
 
 /*===========================
          07.TEAM css 
@@ -1752,3 +1752,90 @@ p.form-message.success, p.form-message.error {
             height: 50px;
             background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDIgQyAyNC4yODUxNTYgMiAyMy41NzQyMTkgMi4xNzk2ODggMjIuOTMzNTk0IDIuNTM5MDYzIEwgNi4wODk4NDQgMTIuMDAzOTA2IEMgNC44MDg1OTQgMTIuNzI2NTYzIDQgMTQuMDc0MjE5IDQgMTUuNTM1MTU2IEwgNCAzNC40NjQ4NDQgQyA0IDM1LjkyOTY4OCA0LjgwODU5NCAzNy4yNzczNDQgNi4wODk4NDQgMzggTCAyMi45MzM1OTQgNDcuNDYwOTM4IEMgMjQuMjE0ODQ0IDQ4LjE4MzU5NCAyNS43ODUxNTYgNDguMTgzNTk0IDI3LjA2NjQwNiA0Ny40NjA5MzggTCA0My45MTAxNTYgMzggQyA0NS4xOTUzMTMgMzcuMjc3MzQ0IDQ2IDM1LjkyNTc4MSA0NiAzNC40NjQ4NDQgTCA0NiAxNS41MzUxNTYgQyA0NiAxNC4wNzQyMTkgNDUuMTkxNDA2IDEyLjcyNjU2MyA0My45MTAxNTYgMTIuMDAzOTA2IEwgMjcuMDY2NDA2IDIuNTM5MDYzIEMgMjYuNDI1NzgxIDIuMTc5Njg4IDI1LjcxNDg0NCAyIDI1IDIgWiBNIDI1IDQgQyAyNS4zNzUgNCAyNS43NTM5MDYgNC4wOTM3NSAyNi4wODk4NDQgNC4yODEyNSBMIDQyLjkzMzU5NCAxMy43NDYwOTQgQyA0My42MDE1NjMgMTQuMTI1IDQ0IDE0LjgwNDY4OCA0NCAxNS41MzUxNTYgTCA0NCAyNCBMIDQyIDI0IEwgNDIgMjIgTCA0MCAyMiBMIDQwIDI0IEwgMzggMjQgTCAzOCAyNiBMIDQwIDI2IEwgNDAgMjggTCA0MiAyOCBMIDQyIDI2IEwgNDQgMjYgTCA0NCAzNC40NjQ4NDQgQyA0NCAzNS4xOTUzMTMgNDMuNjAxNTYzIDM1Ljg3NSA0Mi45Mjk2ODggMzYuMjUzOTA2IEwgMjYuMDg5ODQ0IDQ1LjcxODc1IEMgMjUuNDE3OTY5IDQ2LjA5Mzc1IDI0LjU4MjAzMSA0Ni4wOTM3NSAyMy45MTAxNTYgNDUuNzE4NzUgTCA3LjA3MDMxMyAzNi4yNTM5MDYgQyA2LjM5ODQzOCAzNS44NzUgNiAzNS4xOTkyMTkgNiAzNC40NjQ4NDQgTCA2IDE1LjUzNTE1NiBDIDYgMTQuODA0Njg4IDYuMzk4NDM4IDE0LjEyNSA3LjA3MDMxMyAxMy43NDYwOTQgTCAyMy45MTAxNTYgNC4yODEyNSBDIDI0LjI0NjA5NCA0LjA5Mzc1IDI0LjYyNSA0IDI1IDQgWiBNIDI1IDEyIEMgMTcuODM5ODQ0IDEyIDEyIDE3LjgzOTg0NCAxMiAyNSBDIDEyIDMyLjE2MDE1NiAxNy44Mzk4NDQgMzggMjUgMzggQyAyOS4wODk4NDQgMzggMzIuODg2NzE5IDM2LjA5Mzc1IDM1LjMzOTg0NCAzMi44NjMyODEgTCAzNi4wMjM0MzggMzEuOTYwOTM4IEwgMjkuOTY4NzUgMjguNDUzMTI1IEwgMjkuNDIxODc1IDI5LjA0Njg3NSBDIDI4LjI5Mjk2OSAzMC4yODEyNSAyNi42OTE0MDYgMzEgMjUgMzEgQyAyMS42ODM1OTQgMzEgMTkgMjguMzE2NDA2IDE5IDI1IEMgMTkgMjEuNjgzNTk0IDIxLjY4MzU5NCAxOSAyNSAxOSBDIDI2LjY5MTQwNiAxOSAyOC4yOTI5NjkgMTkuNzE4NzUgMjkuNDIxODc1IDIwLjk1MzEyNSBMIDI5Ljk2ODc1IDIxLjU0Njg3NSBMIDM2LjAyMzQzOCAxOC4wMzkwNjMgTCAzNS4zMzk4NDQgMTcuMTM2NzE5IEMgMzIuODg2NzE5IDEzLjkwNjI1IDI5LjA4OTg0NCAxMiAyNSAxMiBaIE0gMjUgMTQgQyAyOC4wNzQyMTkgMTQgMzAuODg2NzE5IDE1LjMxNjQwNiAzMi45NDUzMTMgMTcuNTExNzE5IEwgMzAuMjAzMTI1IDE5LjA5NzY1NiBDIDI4Ljc1NzgxMyAxNy44MzIwMzEgMjYuOTYwOTM4IDE3IDI1IDE3IEMgMjAuNTk3NjU2IDE3IDE3IDIwLjU5NzY1NiAxNyAyNSBDIDE3IDI5LjQwMjM0NCAyMC41OTc2NTYgMzMgMjUgMzMgQyAyNi45NjA5MzggMzMgMjguNzU3ODEzIDMyLjE2Nzk2OSAzMC4yMDMxMjUgMzAuOTAyMzQ0IEwgMzIuOTQ1MzEzIDMyLjQ4ODI4MSBDIDMwLjg4NjcxOSAzNC42ODM1OTQgMjguMDc0MjE5IDM2IDI1IDM2IEMgMTguOTI1NzgxIDM2IDE0IDMxLjA3NDIxOSAxNCAyNSBDIDE0IDE4LjkyNTc4MSAxOC45MjU3ODEgMTQgMjUgMTQgWiBNIDMzIDIyIEwgMzMgMjQgTCAzMSAyNCBMIDMxIDI2IEwgMzMgMjYgTCAzMyAyOCBMIDM1IDI4IEwgMzUgMjYgTCAzNyAyNiBMIDM3IDI0IEwgMzUgMjQgTCAzNSAyMiBaIj48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
              background-size: 100%; }
+
+/*===========================
+       07.Gallery css 
+===========================*/
+.testimonial-left-content .testimonial-line {
+  padding-top: 10px; }
+  .testimonial-left-content .testimonial-line li {
+    height: 5px;
+    background-color: #bf7fc8;
+    display: inline-block;
+    border-radius: 50px;
+    margin-right: 3px; }
+    .testimonial-left-content .testimonial-line li:nth-of-type(1) {
+      width: 40px; }
+    .testimonial-left-content .testimonial-line li:nth-of-type(2) {
+      width: 15px; }
+    .testimonial-left-content .testimonial-line li:nth-of-type(3) {
+      width: 10px; }
+    .testimonial-left-content .testimonial-line li:nth-of-type(4) {
+      width: 5px; }
+
+.testimonial-left-content .text {
+  padding-top: 15px; }
+
+.testimonial-right-content {
+  position: relative;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  max-width: 500px;
+  padding-top: 50px; }
+  .testimonial-right-content .quota {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    opacity: 0.1; }
+    .testimonial-right-content .quota i {
+      font-size: 130px;
+      line-height: 95px;
+      color: #691970; }
+
+.testimonial-content-wrapper {
+  position: relative;
+  left: 70px; }
+  @media (max-width: 767px) {
+    .testimonial-content-wrapper {
+      left: 0; } }
+
+.single-testimonial {
+  background-color: rgba(239, 209, 245, 0.198);
+  padding: 40px 30px 50px;
+  border-radius: 50px; }
+  .single-testimonial .testimonial-text .text {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 36px;
+    color: #222;
+    padding-bottom: 25px; }
+    @media (max-width: 767px) {
+      .single-testimonial .testimonial-text .text {
+        font-size: 18px;
+        line-height: 32px; } }
+  
+.testimonial-active .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  left: -670px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #798795;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+  .testimonial-active .slick-arrow:hover {
+    color: #000; }
+  .testimonial-active .slick-arrow.next {
+    left: -635px; }
