@@ -757,7 +757,6 @@
         </div>
     </section> -->
 
-
     <section id="gallery" class="testimonial-area pt-70 pb-120">
         <div class="section_title text-center pb-25 text-center">
             <h5 class="sub_title">GALLERY</h5>
@@ -1064,27 +1063,28 @@
                     <div class="contact_wrapper mt-45 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                         <div class="contact_form">
                             <h3 class="main_title text-center">Leave Us A Message</h3>
-                            <form id="contact-form" action="">
+                            <form id="contact-form" onsubmit="event.preventDefault()">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_form">
-                                            <input name="name" type="text" placeholder="Name">
+                                            <input name="name" type="text" placeholder="Name" id="name" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single_form">
-                                            <input name="email" type="email" placeholder="Email">
+                                            <input name="email" type="email" placeholder="Email" id="email" required>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="single_form">
-                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <textarea name="message" placeholder="Message" id="message"
+                                                required></textarea>
                                         </div>
                                     </div>
                                     <p class="form-message"></p>
                                     <div class="col-md-12 text-center">
                                         <div class="single_form">
-                                            <button class="main-btn">Submit</button>
+                                            <button class="main-btn" id="submit">Submit</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1164,18 +1164,19 @@
     <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
 
 
-    <script src="./js/Lib/jquery-1.12.4.min.js"></script>
-    <!-- <script src="/js/Lib/modernizr-3.7.1.min.js"></script> -->
+    <!-- <script src="./js/Lib/jquery-1.12.4.min.js"></script> -->
+
+    <script src="./js/Lib/jquery-3.1.1.min.js"></script>
     <script src="./js/Lib/popper.min.js"></script>
     <script src="./js/Lib/bootstrap.min.js"></script>
     <script src="./js/Lib/slick.min.js"></script>
     <script src="./js/Lib/jquery.easing.min.js"></script>
     <script src="./js/Lib/scrolling-nav.js"></script>
     <script src="./js/Lib/wow.min.js"></script>
-
-    <script src="./js/gallery.js"></script>
     <script src="./js/contact.js"></script>
+    <script src="./js/gallery.js"></script>
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>

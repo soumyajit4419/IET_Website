@@ -192,14 +192,11 @@ $(function () {
 });
 
 $('.testimonial-active').slick({
-    dots: false, arrows: true, prevArrow: '<span class="prev"><i class="lni-arrow-left"></i></span>',
-    nextArrow: '<span class="next"><i class="lni-arrow-right"></i></span>',
+    dots: false, arrows: true, prevArrow: '<span class="prev"><i class="fas arrow-left"></i></span>',
+    nextArrow: '<span class="next"><i class="fas arrow-right"></i></span>',
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
     speed: 800,
     slidesToShow: 1,
 });
-
-
-

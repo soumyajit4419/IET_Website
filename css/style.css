@@ -1370,7 +1370,7 @@ p {
 /*===========================
          08.BLOG css 
 ===========================*/
-.single_blog {
+/* .single_blog {
   border-radius: 10px;
   overflow: hidden;
   background-color: #fff;
@@ -1431,7 +1431,7 @@ p {
   .single_blog:hover {
     -webkit-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
     -moz-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
-    box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1); }
+    box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1); } */
 
 /*===========================
        09.CONTACT css 
@@ -1448,50 +1448,6 @@ p.form-message.success, p.form-message.error {
   margin-left: 15px; }
   p.form-message.success.form-message.error, p.form-message.error.form-message.error {
     color: #f00; }
-
-.contact_image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .contact_image {
-      width: 720px;
-      margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px;
-      position: inherit;
-      height: auto;
-      margin-top: 50px; } }
-  @media (max-width: 767px) {
-    .contact_image {
-      width: 100%;
-      margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px;
-      position: inherit;
-      height: auto;
-      margin-top: 50px; } }
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .contact_image {
-      width: 540px; } }
-  .contact_image .image {
-    padding-right: 50px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .contact_image .image {
-        padding-right: 0; } }
-    @media (max-width: 767px) {
-      .contact_image .image {
-        padding-right: 0; } }
-    .contact_image .image img {
-      max-width: 770px; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .contact_image .image img {
-          max-width: 100%; } }
-      @media (max-width: 767px) {
-        .contact_image .image img {
-          max-width: 100%; } }
 
 .single_form {
   margin-top: 30px; }
