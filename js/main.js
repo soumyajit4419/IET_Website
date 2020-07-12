@@ -129,7 +129,7 @@ $(function () {
         autoplaySpeed: 5000,
         centerMode: true,
         centerPadding: '0',
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 4,
         responsive: [
             {
