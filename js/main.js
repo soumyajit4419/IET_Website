@@ -2,14 +2,14 @@ $(function () {
 
     "use strict";
 
-    //===== Prealoder
+    //===== Prealoder=====//
 
     $(window).on('load', function (event) {
         $('.preloader').delay(500).fadeOut(500);
     });
 
 
-    //===== Sticky
+    //===== Sticky=====//
 
     $(window).on('scroll', function (event) {
         var scroll = $(window).scrollTop();
@@ -21,7 +21,7 @@ $(function () {
     });
 
 
-    //===== Section Menu Active
+    //===== Section Menu Active =====//
 
     var scrollLink = $('.page-scroll');
     // Active link switching
@@ -40,7 +40,7 @@ $(function () {
     });
 
 
-    //===== close navbar-collapse when a  clicked
+    //===== close navbar-collapse when a  clicked=====//
 
     $(".navbar-nav a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
@@ -55,7 +55,7 @@ $(function () {
     });
 
 
-    //===== slick Work
+    //===== slick Events=====//
 
     $('.work_active').slick({
         dots: true,
@@ -66,21 +66,21 @@ $(function () {
         autoplaySpeed: 5000,
         centerMode: true,
         centerPadding: '360px',
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1600,
                 settings: {
-                    slidesToShow: 3,
-                    centerPadding: '300px',
+                    slidesToShow: 2,
+                    centerPadding: '400px',
                 }
             },
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 3,
-                    centerPadding: '140px',
+                    slidesToShow: 2,
+                    centerPadding: '160px',
                 }
             },
             {
@@ -118,7 +118,7 @@ $(function () {
     });
 
 
-    //====== slick Team
+    //====== slick Team =====//
 
     $('.team_active').slick({
         dots: true,
@@ -159,7 +159,7 @@ $(function () {
         ]
     });
 
-    //===== Back to top
+    //===== Back to top =====//
 
     // Show or hide the sticky footer button
     $(window).on('scroll', function (event) {
@@ -171,7 +171,7 @@ $(function () {
     });
 
 
-    //Animate the scroll to yop
+    //Animate the scroll to yop =====//
     $('.back-to-top').on('click', function (event) {
         event.preventDefault();
 
@@ -180,23 +180,33 @@ $(function () {
         }, 1500);
     });
 
-    //=====  WOW active
+    //=====  WOW active=====//
 
     var wow = new WOW({
         boxClass: 'wow', //
         mobile: false, // 
     })
     wow.init();
-
-    //=====//
 });
 
+//=====  Slick Gallery=====//
 $('.testimonial-active').slick({
-    dots: false, arrows: true, prevArrow: '<span class="prev"><i class="fas arrow-left"></i></span>',
-    nextArrow: '<span class="next"><i class="fas arrow-right"></i></span>',
+    dots: false, arrows: true, prevArrow: '<span class="prev"><i class="fas fa-arrow-left"></i></span>',
+    nextArrow: '<span class="next"><i class="fas fa-arrow-right"></i></span>',
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     speed: 800,
     slidesToShow: 1,
 });
+
+// $('.testimonial-active').slick({
+//     dots: false, arrows: true, 
+//     prevArrow: '<span class="prev"><i class="fas fa-arrow-left"></i></span>',
+//     nextArrow: $(this).find(".next"),
+//     infinite: true,
+//     autoplay: true,
+//     autoplaySpeed: 5000,
+//     speed: 800,
+//     slidesToShow: 1,
+// });

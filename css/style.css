@@ -1,9 +1,17 @@
 /*===========================
      01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"); */
+/* @font-face {
+  font-family: "product-sans";
+  src: url("../../fonts/Product Sans Italic.ttf") format("opentype");
+} */
+@font-face {
+  font-family: "product-sans";
+  src: url("../../fonts/Product Sans Regular.ttf") format("opentype");
+}
 body {
-  font-family: sans-serif;
+  font-family: "product-sans";
   font-weight: normal;
   font-style: normal;
   color: #b528c2; }
@@ -53,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "product-sans";
   font-weight: 700;
   color: #72258a;
   margin: 0px; }
@@ -138,12 +146,37 @@ p {
 
 /*===== All Section Title Style =====*/
 .section_title .sub_title {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 600;
-  color: #ad04bd; }
+  color: #ad04bd;
+  padding-bottom: 10px; }
+  .section_title h5::after{
+    content: '';
+    position: initial;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ad04bd;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+ }
   @media (max-width: 767px) {
     .section_title .sub_title {
-      font-size: 18px; } }
+      font-size: 18px; } 
+      .section_title h5::after{
+        content: '';
+        position: initial;
+        display: block;
+        width: 35px;
+        height: 3px;
+        background: #ad04bd;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        left: 0;
+     }}
 
 .section_title .main_title {
   font-size: 35px;
@@ -573,8 +606,7 @@ p {
         display: block;
         padding: 4px 0; } }
   .navbar-nav .nav-item.active > a, .navbar-nav .nav-item:hover > a {
-    color: #782c9b; 
-  text-decoration: underline;}
+    color: #782c9b;}
   .navbar-nav .nav-item:hover .sub-menu {
     top: 100%;
     opacity: 1;
@@ -1120,109 +1152,6 @@ p {
       background-color: #8f4baf }
 
 /*===========================
-    06.PRICING PLAN css 
-===========================*/
-/* .pricing_menu .nav {
-  overflow: hidden; }
-  .pricing_menu .nav .nav-item a {
-    width: 120px;
-    line-height: 55px;
-    height: 55px;
-    text-align: center;
-    padding: 0 15px;
-    background-color: #F5F5FC;
-    font-size: 16px;
-    font-weight: 600;
-    color: #38424D;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
-    .pricing_menu .nav .nav-item a.active, .pricing_menu .nav .nav-item a:hover {
-      background-color: #F94F4F;
-      color: #fff; }
-  .pricing_menu .nav .nav-item:first-child a {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px; }
-  .pricing_menu .nav .nav-item:last-child a {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px; }
-
-.single_pricing {
-  border: 2px dashed #E8E8E8;
-  border-radius: 10px;
-  padding: 40px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
-  @media (max-width: 767px) {
-    .single_pricing {
-      padding: 25px; } }
-  .single_pricing .pricing_title {
-    position: relative;
-    display: inline-block; }
-    .single_pricing .pricing_title .title {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      font-size: 20px;
-      font-weight: 600;
-      color: #38424D;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-    .single_pricing .pricing_title .services_shape {
-      fill: #fff1f1;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-  .single_pricing .pricing_content {
-    margin-top: 25px; }
-    .single_pricing .pricing_content .pricing_price {
-      font-size: 35px;
-      font-weight: 700;
-      color: #38424D; }
-    .single_pricing .pricing_content p {
-      margin-top: 15px;
-      line-height: 37px; }
-    .single_pricing .pricing_content .main-btn {
-      background-color: #FFF1F1;
-      padding: 0 25px;
-      border-radius: 5px;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      color: #747E88;
-      margin-top: 30px; }
-      .single_pricing .pricing_content .main-btn:hover {
-        background-color: #F94F4F;
-        color: #fff; }
-  .single_pricing.active, .single_pricing:hover {
-    border-color: #F94F4F;
-    -webkit-box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15);
-    -moz-box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15);
-    box-shadow: 0px 10px 15px 0px rgba(157, 106, 106, 0.15); }
-    .single_pricing.active .pricing_title .title, .single_pricing:hover .pricing_title .title {
-      color: #fff; }
-    .single_pricing.active .pricing_title .services_shape, .single_pricing:hover .pricing_title .services_shape {
-      fill: #F94F4F; }
-    .single_pricing.active .pricing_content .main-btn, .single_pricing:hover .pricing_content .main-btn {
-      background-color: #F94F4F;
-      color: #fff; } */
-
-/*===========================
          07.TEAM css 
 ===========================*/
 .team_area {
@@ -1270,9 +1199,9 @@ p {
           height: 35px;
           line-height: 32px;
           text-align: center;
-          background-color: rgba(244, 209, 246, 0.801);
+          background-color: rgb(255, 255, 255);
           border: 2px solid rgb(81, 26, 95);
-          color: rgba(156, 59, 168, 0.979);
+          color: rgba(108, 23, 119, 0.979);
           border-radius: 50%;
           font-size: 16px;
           -webkit-transition: all 0.3s ease-out 0s;
@@ -1366,72 +1295,6 @@ p {
       transition: all 0.3s ease-out 0s; }
     .team_active .slick-dots li.slick-active button {
       background-color: #792585; }
-
-/*===========================
-         08.BLOG css 
-===========================*/
-/* .single_blog {
-  border-radius: 10px;
-  overflow: hidden;
-  background-color: #fff;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
-  .single_blog .blog_image img {
-    width: 100%; }
-  .single_blog .blog_content {
-    padding: 20px; }
-    @media (max-width: 767px) {
-      .single_blog .blog_content {
-        padding: 15px; } }
-    .single_blog .blog_content .blog_meta li {
-      font-size: 16px;
-      color: #747E88; }
-      @media (max-width: 767px) {
-        .single_blog .blog_content .blog_meta li {
-          font-size: 14px; } }
-      .single_blog .blog_content .blog_meta li a {
-        color: #747E88;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
-        .single_blog .blog_content .blog_meta li a:hover {
-          color: #F94F4F; }
-    .single_blog .blog_content .blog_title a {
-      font-size: 24px;
-      color: #38424D;
-      margin-top: 20px;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s;
-      font-weight: 600; }
-      @media (max-width: 767px) {
-        .single_blog .blog_content .blog_title a {
-          font-size: 18px; } }
-      .single_blog .blog_content .blog_title a:hover {
-        color: #F94F4F; }
-    .single_blog .blog_content .more {
-      color: #38424D;
-      font-size: 16px;
-      font-weight: 600;
-      margin-top: 25px;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-      .single_blog .blog_content .more:hover {
-        color: #F94F4F; }
-  .single_blog:hover {
-    -webkit-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
-    -moz-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
-    box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1); } */
 
 /*===========================
        09.CONTACT css 
@@ -1782,16 +1645,36 @@ p.form-message.success, p.form-message.error {
 .testimonial-active .slick-arrow {
   position: absolute;
   bottom: 0;
-  left: -670px;
+  left: -385px;
   font-size: 22px;
+  margin-bottom: 50px;
   cursor: pointer;
-  color: #798795;
+  color: #a62fbb;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .testimonial-active .slick-arrow:hover {
-    color: #000; }
+    color: rgb(189, 42, 157); }
   .testimonial-active .slick-arrow.next {
-    left: -635px; }
+    left: -355px;
+    margin-bottom: 50px; }
+
+
+    .testimonial-events .slick-arrow {
+      position: absolute;
+      bottom: 0;
+      left: 800px;
+      font-size: 22px;
+      margin-bottom: 70px;
+      cursor: pointer;
+      color: #a62fbb;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .testimonial-events .slick-arrow.next {
+        left: 830px;
+        margin-bottom: 70px; }
