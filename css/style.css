@@ -1661,7 +1661,7 @@ p.form-message.success, p.form-message.error {
     left: -355px;
     margin-bottom: 50px; }
 
-
+/* 
     .testimonial-events .slick-arrow {
       position: absolute;
       bottom: 0;
@@ -1677,4 +1677,4 @@ p.form-message.success, p.form-message.error {
       transition: all 0.3s ease-out 0s; }
       .testimonial-events .slick-arrow.next {
         left: 830px;
-        margin-bottom: 70px; }
+        margin-bottom: 70px; } */
