@@ -8,7 +8,7 @@
 } */
 @font-face {
   font-family: "product-sans";
-  src: url("../../fonts/Product Sans Regular.ttf") format("opentype");
+  src: url("../fonts/Product Sans Regular.ttf") format("opentype");
 }
 body {
   font-family: "product-sans";
