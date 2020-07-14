@@ -57,65 +57,65 @@ $(function () {
 
     //===== slick Events=====//
 
-    $('.work_active').slick({
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 800,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        centerMode: true,
-        centerPadding: '360px',
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1600,
-                settings: {
-                    slidesToShow: 2,
-                    centerPadding: '400px',
-                }
-            },
-            {
-                breakpoint: 1400,
-                settings: {
-                    slidesToShow: 2,
-                    centerPadding: '160px',
-                }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                    centerPadding: '80px',
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    centerPadding: '0',
-                    centerMode: false,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    centerPadding: '0',
-                    centerMode: false,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    centerPadding: '0',
-                    centerMode: false,
-                }
-            }
-        ]
-    });
+    // $('.work_active').slick({
+    //     dots: true,
+    //     arrows: false,
+    //     infinite: true,
+    //     speed: 800,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     centerMode: true,
+    //     centerPadding: '360px',
+    //     slidesToShow: 2,
+    //     slidesToScroll: 1,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1600,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 centerPadding: '400px',
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 1400,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 centerPadding: '160px',
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 centerPadding: '80px',
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 992,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 centerPadding: '0',
+    //                 centerMode: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 centerPadding: '0',
+    //                 centerMode: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 576,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 centerPadding: '0',
+    //                 centerMode: false,
+    //             }
+    //         }
+    //     ]
+    // });
 
 
     //====== slick Team =====//
