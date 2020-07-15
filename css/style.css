@@ -1680,3 +1680,25 @@ p.form-message.success, p.form-message.error {
       .testimonial-events .slick-arrow.next {
         left: 830px;
         margin-bottom: 70px; } */
+
+
+
+/*===========================
+       07.Modal css 
+===========================*/
+        .model-img{
+          height: 40vh;
+        }
+
+        .modal-footer{
+          text-align: justify;
+        }
+
+        .single_work:hover{
+          color: #892aa1;
+          box-shadow: 0px 0px 8px #691180;
+          border: 2px solid #691180;
+          transform: scale(1.1);
+          overflow: hidden;
+          cursor: pointer;
+        }
