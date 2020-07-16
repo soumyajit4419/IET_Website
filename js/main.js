@@ -5,7 +5,7 @@ $(function () {
     //===== Prealoder=====//
 
     $(window).on('load', function (event) {
-        $('.preloader').delay(200).fadeOut(200);
+        $('.preloader').delay(400).fadeOut(400);
     });
 
 
@@ -117,6 +117,14 @@ $(function () {
     //     ]
     // });
 
+    // "event4": {},
+    // "event5": {},
+    // "event6": {},
+    // "event7": {},
+    // "event8": {},
+    // "event9": {},
+    // "event10": {},
+    // "event11": {}
 
     //====== slick Team =====//
 
