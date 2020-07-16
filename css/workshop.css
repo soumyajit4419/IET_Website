@@ -1,0 +1,97 @@
+html,
+body {
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "product-sans";
+  src: url("../fonts/Product Sans Regular.ttf") format("opentype");
+}
+body {
+  font-family: "product-sans";
+  font-weight: normal;
+  font-style: normal;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content {
+  position: absolute;
+  margin-top: 7%;
+  width: 100vw;
+  color: #ffffff;
+}
+canvas {
+  /* position: fixed; */
+  touch-action: none;
+}
+.materials {
+  margin: 20px 0 5px 0;
+}
+.work_info p {
+  color: black;
+  display: inline;
+}
+.day {
+  color: blanchedalmond;
+  display: inline;
+}
+h1 {
+  color: #ffffff;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: black;
+}
+
+.testimonial-line li:nth-of-type(1) {
+  width: 40px;
+}
+.testimonial-line li:nth-of-type(2) {
+  width: 15px;
+}
+.testimonial-line li:nth-of-type(3) {
+  width: 10px;
+}
+.testimonial-line li {
+  height: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50px;
+  margin-right: 3px;
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 26px;
+  }
+  h5,
+  p {
+    font-size: 16px;
+  }
+}
