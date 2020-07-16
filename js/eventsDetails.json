@@ -1,0 +1,70 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "imgUrl": "blitzkreig.jpg",
+            "eventName": "Blitzkreig",
+            "eventBody": "It is an ultimate teaming event which is all about team work and coordination with 5 parallel events summing up to a bigger mega Event.The event targets upon building team bonding and results are based on the collective performance of each individual of the team."
+        },
+        {
+            "id": 2,
+            "imgUrl": "brainfookers.jpg",
+            "eventName": "Brainfookers",
+            "eventBody": "This event is a perfect blend of coding and treasure Hunt.It forces an individual to rack his/her minds as they try to unravel what the code tries to hide by deciphering the programs spread across the institute building."
+        },
+        {
+            "id": 3,
+            "imgUrl": "codec.jpg",
+            "eventName": "Codec",
+            "eventBody": "Codec is an event where people are challenged to break the seemingly impossible codes and some more nerve wracking challenge. Besides Teamwork it tests your  skills of deciphering patters and connections before anyone else."
+        },
+        {
+            "id": 4,
+            "imgUrl": "captureTheFlag.jpg",
+            "eventName": "Capture The Flag",
+            "eventBody": "Do you think you can overcome the most baffling situations? Can you work in a team to find the solution to any quagmire related to information security? If your answers are yes, 'Capture The Flag' is the event for you. Pantheon'18 brings to you a unique information security competition. Gear up for a jeopardy style three-day online event that will challenge your expertise in various fields. Form your teams, perform the tasks and lead the way to glory."
+        },
+        {
+            "id": 5,
+            "imgUrl": "codeItBlind.jpg",
+            "eventName": "Code It Blind",
+            "eventBody": "Do you think you have what it takes to be a proficient coder? Can you write a simple program with the only catch being that you are blind-folded? If you think you have what it takes to solve this puzzle then you are welcome here! Come and be a part of this event as you compete through three intriguing rounds to emerge as the final winner!"
+        },
+        {
+            "id": 6,
+            "imgUrl": "dcrypt.jpeg",
+            "eventName": "Dcrypt",
+            "eventBody": "Do you think you are good at surfing the Internet? Are you smart enough to break the decryptions? Get ready to use your grey matter to take you to the next level. Make sure you are familiar with language(s)."
+        },
+        {
+            "id": 7,
+            "imgUrl": "githeat.jpg",
+            "eventName": "GIT HEAT",
+            "eventBody": "Have you been thinking about learning something new, but just couldn't get started or decide what to learn? Well no worries, IET is here to help! We bring you Git Heat, a four week dev-a-thon to help you develop new skills with a chance to get featured, win prizes and more! Each week we will be providing you with a small project idea or let’s say a real life problem statement along with an extensive list of resources that'll help you gain the skills required for the project. You will have one week to learn the relevant technologies and solve the problem. At any time during this period, you can submit your code for review by filling the submission form and we will get back to you. Make sure you read and follow the coding instructions. If you have any doubts, you can reach out to us anytime on slack. So what are you waiting for? Jump right in !!!"
+        },
+        {
+            "id": 8,
+            "imgUrl": "google_it_out.jpg",
+            "eventName": "Google It Out",
+            "eventBody": "This is one of the most exciting online events in the whole Bitotsav where people are judged on their googling sills with each team consisting of a group of 2 members, asked to connect pair of photos in the best possible way and decipher the answer within a given constrained time."
+        },
+        {
+            "id": 9,
+            "imgUrl": "techdesk.jpg",
+            "eventName": "TECHDESK",
+            "eventBody": "Technology has revolutionized our way of living, impacting every aspect of our lives. Thus, IET On Campus, BIT Mesra invites all the tech enthusiast out there to bring out their inner techie or developer to come up with articles and get a chance to get published on our website !! It could be anything from a tutorial to a review. Let’s see who plays the best with the words to bring out the best in tech !!"
+        },
+        {
+            "id": 10,
+            "imgUrl": "ultimate_engineer.jpg",
+            "eventName": "The Ultimate Engineer",
+            "eventBody": ""
+        },
+        {
+            "id": 11,
+            "imgUrl": "walking_dead.jpg",
+            "eventName": "Walking Dead",
+            "eventBody": ""
+        }
+    ]
+}
