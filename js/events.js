@@ -5,7 +5,7 @@ $.ajax({
   method: "GET",
   success: function (res) {
     // console.log(res.events[1].imgUrl);
-    for (var i = 1; i <= res.events.length; i++) {
+    for (var i = 0; i <= res.events.length; i++) {
       $("#eventsModal").append(`        
           <div class="col-lg-2 col-md-2 inc-pad">
           <div class="single_work">
