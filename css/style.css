@@ -943,7 +943,7 @@ p {
   .single_services .services_content {
     margin-top: 40px; }
     .single_services .services_content .services_title a {
-      font-size: 27px;
+      font-size: 23px;
       color: #38424D;
       font-weight: 600;
       -webkit-transition: all 0.3s ease-out 0s;
@@ -973,7 +973,12 @@ p {
       color: #fff; }
     .single_services.active .services_icon .services_shape, .single_services:hover .services_icon .services_shape {
       fill:  #9e40af; }
-
+    .workshop-links{
+      color:  #811d8a;
+    }
+    .workshop-links:hover{
+      color: #811d8a;
+    }
 /*===========================
         04.ABOUT css 
 ===========================*/
