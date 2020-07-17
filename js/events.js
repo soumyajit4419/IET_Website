@@ -1,12 +1,12 @@
-my_url = "js/eventsDetails.json";
-function eventDeatils() {
-    $.ajax({
-        'url': my_url,
-        'dataType': "json",
-        'success': function (res) {
-            // console.log(res.events[1].imgUrl);
-            for (i = 1; i <= res.events.length; i++) {
-                $("#eventsModal").append(`        
+let myUrl = "./js/eventsDetails.json";
+$.ajax({
+  url: myUrl,
+  async: false,
+  method: "GET",
+  success: function (res) {
+    // console.log(res.events[1].imgUrl);
+    for (var i = 1; i <= res.events.length; i++) {
+      $("#eventsModal").append(`        
           <div class="col-lg-2 col-md-2 inc-pad">
           <div class="single_work">
             <div class="work_image">
@@ -36,13 +36,10 @@ function eventDeatils() {
           </div>
         </div>
 `)
-            }
+    }
 
-        },
-        'error': function (err) {
-            console.log(err);
-        }
-    });
-}
-
-eventDeatils()
+  },
+  error: function (err) {
+    console.log(err);
+  }
+});

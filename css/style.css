@@ -1739,14 +1739,13 @@ p.form-message.success, p.form-message.error {
 }
 .hackabit-image{
   margin: 0;
-  padding: 0px 10px;
   height: 100%;
-  box-shadow: rgba(47, 46, 47, 0.286) 0px 10px 15px 5px;
-  border-radius: 9px;
 }
 .hackabit-image img{
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 100vh; 
+  box-shadow: rgba(47, 46, 47, 0.286) 0px 10px 15px 5px;
+
+  border-radius: 9px;
   margin: auto;
-  padding: 20px;
 }
