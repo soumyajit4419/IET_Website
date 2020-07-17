@@ -1749,3 +1749,23 @@ p.form-message.success, p.form-message.error {
   border-radius: 9px;
   margin: auto;
 }
+
+/*===========================
+    Scroll Bar CSS
+===========================*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ad04bd;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ad04bd;
+  border-radius: 10px;
+}
