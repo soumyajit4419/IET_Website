@@ -54,6 +54,7 @@ canvas {
 .work_info p {
   color: black;
   display: inline;
+  text-align: justify;
 }
 .day {
   color: blanchedalmond;
@@ -96,7 +97,7 @@ h5 {
   }
 }
 
-.workshop-section{
+.workshop-section {
   padding-top: 70px;
   padding-bottom: 100px;
 }
