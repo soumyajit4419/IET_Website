@@ -4,7 +4,7 @@ $(function () {
   //===== Prealoder=====//
 
   $(window).on("load", function (event) {
-    $(".preloader").delay(400).fadeOut(400);
+    $("#preloader").delay(100).fadeOut(1000);
   });
 
   //===== Sticky=====//
