@@ -1,11 +1,6 @@
 /*===========================
      01.COMMON css 
 ===========================*/
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"); */
-/* @font-face {
-  font-family: "product-sans";
-  src: url("../../fonts/Product Sans Italic.ttf") format("opentype");
-} */
 @font-face {
   font-family: "product-sans";
   src: url("../fonts/Product Sans Regular.ttf") format("opentype");
@@ -197,7 +192,7 @@ p {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background: #353434;
+  background: #e9e9e9;
 }
 #loader {
   display: block;
@@ -209,7 +204,7 @@ p {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #30C032;
+  border-top-color: #cd3be0;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -222,7 +217,7 @@ p {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #8f6ed5;
+  border-top-color: #795fb1;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -235,7 +230,7 @@ p {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #2394F2;
+  border-top-color: #64b2f1;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
@@ -1459,26 +1454,6 @@ p.form-message.success, p.form-message.error {
   .testimonial-active .slick-arrow.next {
     left: -355px;
     margin-bottom: 50px; }
-
-/* 
-    .testimonial-events .slick-arrow {
-      position: absolute;
-      bottom: 0;
-      left: 800px;
-      font-size: 22px;
-      margin-bottom: 70px;
-      cursor: pointer;
-      color: #a62fbb;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-      .testimonial-events .slick-arrow.next {
-        left: 830px;
-        margin-bottom: 70px; } */
-
-
 
 /*===========================
        07.Modal css 
