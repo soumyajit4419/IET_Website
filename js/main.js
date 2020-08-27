@@ -130,7 +130,7 @@ $(function () {
     infinite: true,
     speed: 800,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     centerMode: true,
     centerPadding: "0",
     slidesToShow: 4,
@@ -139,7 +139,7 @@ $(function () {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
         },
       },
       {
