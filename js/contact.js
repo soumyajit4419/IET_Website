@@ -38,6 +38,6 @@ $("#submit").click(function () {
         `;
 
     sendMessageToHost(email, s, name);
-    window.location.reload();
+    $("#contact-form").trigger("reset");
   }
 });
