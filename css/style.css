@@ -240,6 +240,11 @@ p {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
+@media (max-width: 767px) {
+  #loader {
+    margin: -15% 0 0 -10%;
+  }
+}
 #loader:before {
   content: "";
   position: absolute;
@@ -1037,6 +1042,11 @@ p {
 .inc-pad {
   padding: 10px;
 }
+@media (max-width: 767px) {
+  .inc-pad {
+    padding: 20px;
+  }
+}
 .single_work {
   -webkit-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
   -moz-box-shadow: 0px 3px 27px 0px rgba(157, 106, 106, 0.1);
@@ -1215,6 +1225,7 @@ p {
 .single_team .team_content {
   padding: 20px 30px;
   position: relative;
+  text-align: center;
 }
 .single_team .team_content .team_name a {
   font-size: 22px;
