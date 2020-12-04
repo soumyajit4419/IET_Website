@@ -1,27 +1,6 @@
 {
   "team": [
-    {
-      "Timestamp": "08/20/2020 00:53:56",
-      "Name": "Gyan Prakash Karn",
-      "Position": "President",
-      "imagePath": "images/newTeam/gyanKarn.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/karnsometimes/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/karngyan/",
-      "Github_Profile_Link": "https://github.com/karngyan",
-      "Instagram_Profile_Link": "https://instagram.com/karngyan",
-      "Email Address": "mail@karngyan.com"
-    },
-    {
-      "Timestamp": "08/20/2020 21:08:16",
-      "Name": "Abhishek Aryan",
-      "Position": "Vice President",
-      "imagePath": "images/newTeam/abhishekAryan.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100017581381618",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhishek-aryan-98b104187",
-      "Github_Profile_Link": "https://github.com/aryanAbhishek18",
-      "Instagram_Profile_Link": "https://www.instagram.com/_abhishek_aryan/",
-      "Email Address": "aryan.abhishek1829@gmail.com"
-    },
+    
     {
       "Timestamp": "08/19/2020 22:43:43",
       "Name": "Ankit Gupta",
@@ -282,6 +261,28 @@
       "Github_Profile_Link": "https://github.com/TanweerulHaque",
       "Instagram_Profile_Link": "https://www.instagram.com/_baby69me_/",
       "Email Address": "tan.haque@gmail.com"
+    },
+    {
+      "Timestamp": "08/20/2020 00:53:56",
+      "Name": "Gyan Prakash Karn",
+      "Position": "President",
+      "imagePath": "images/newTeam/gyanKarn.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/karnsometimes/",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/karngyan/",
+      "Github_Profile_Link": "https://github.com/karngyan",
+      "Instagram_Profile_Link": "https://instagram.com/karngyan",
+      "Email Address": "mail@karngyan.com"
+    },
+    {
+      "Timestamp": "08/20/2020 21:08:16",
+      "Name": "Abhishek Aryan",
+      "Position": "Vice President",
+      "imagePath": "images/newTeam/abhishekAryan.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100017581381618",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhishek-aryan-98b104187",
+      "Github_Profile_Link": "https://github.com/aryanAbhishek18",
+      "Instagram_Profile_Link": "https://www.instagram.com/_abhishek_aryan/",
+      "Email Address": "aryan.abhishek1829@gmail.com"
     }
   ]
 }
