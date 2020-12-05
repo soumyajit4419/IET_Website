@@ -1,5 +1,6 @@
 {
   "team": [
+    
     {
       "Timestamp": "08/19/2020 22:43:43",
       "Name": "Ankit Gupta",
@@ -21,6 +22,26 @@
       "Github_Profile_Link": "",
       "Instagram_Profile_Link": "",
       "Email Address": "princeloomba6@gmail.com"
+    },
+    {
+      "Name": "Archit Gupta",
+      "Position": "Sr. Executive Member",
+      "imagePath": "images/newTeam/archit.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/archit.gupta.4077",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/archit4077sh/",
+      "Github_Profile_Link": "https://github.com/archit4077sh",
+      "Instagram_Profile_Link": "https://www.instagram.com/archit4077/",
+      "Email Address": "architgupta4077sh@gmail.com"
+    },
+    {
+      "Name": "Amit Kumar Tiwary",
+      "Position": "Sr. Executive Member",
+      "imagePath": "images/newTeam/Amit.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/akt114",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/akt114/",
+      "Github_Profile_Link": "https://github.com/akt114",
+      "Instagram_Profile_Link": "https://www.instagram.com/_amit_114/",
+      "Email Address": "amittiwary710@gmail.com"
     },
     {
       "Timestamp": "08/19/2020 20:47:21",
@@ -173,8 +194,18 @@
       "Facebook_Profile_Link": "https://www.facebook.com/tanmaysinhaBIT/",
       "Linkedin_Profile_Link": "https://www.linkedin.com/in/tanmay-sinha-bit/",
       "Github_Profile_Link": "https://github.com/tanmay-sinha",
-      "Instagram_Profile_Link": "",
+      "Instagram_Profile_Link": "https://www.instagram.com/tanmay.sinha0509",
       "Email Address": "alokratn0001@gmail.com"
+    },
+    {
+      "Name": "Atulya Arya",
+      "Position": "Public Relations Coordinator",
+      "imagePath": "images/newTeam/atulyaArya.jpeg",
+      "Facebook_Profile_Link": "https://m.facebook.com/atulya.arya.14",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/atulya-arya-794280186",
+      "Github_Profile_Link": "https://github.com/atulya06",
+      "Instagram_Profile_Link": "https://www.instagram.com/atulya.arya06",
+      "Email Address": "atulya.arya06@gmail.com"
     },
     {
       "Timestamp": "08/19/2020 22:23:26",
