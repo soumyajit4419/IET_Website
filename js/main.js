@@ -127,35 +127,30 @@ $(function () {
   $(".team_active").slick({
     dots: false,
     arrows: true,
-    prevArrow: '<span class="prev"><i class="fas fa-left-arrow"></i></span>',
-    nextArrow: '<span class="next"><i class=""></i></span>',
     infinite: true,
     speed: 800,
     lazyLoad: 'ondemand',
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
     centerMode: false,
     centerPadding: "0",
     slidesToShow: 4,
     slidesToScroll: 2,
+    lazyLoad: 'on-demand',
+    prevArrow: '<span><button class="slide-arrow prev-arrow"></button></span>',
+    nextArrow: '<span><button class="slide-arrow next-arrow"></button></span>',
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 4,
+          arrows: true,
         },
       },
       {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
         },
       },
       {
