@@ -127,21 +127,26 @@ $(function () {
   //====== slick Team =====//
 
   $(".team_active").slick({
-    dots: true,
-    arrows: false,
+    dots: false,
+    arrows: true,
     infinite: true,
     speed: 800,
+    lazyLoad: 'ondemand',
     autoplay: true,
-    autoplaySpeed: 4000,
-    centerMode: true,
+    autoplaySpeed: 1500,
+    centerMode: false,
     centerPadding: "0",
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
+    lazyLoad: 'on-demand',
+    prevArrow: '<span><button class="slide-arrow prev-arrow"></button></span>',
+    nextArrow: '<span><button class="slide-arrow next-arrow"></button></span>',
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 4,
+          arrows: true,
         },
       },
       {
@@ -151,15 +156,10 @@ $(function () {
         },
       },
       {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
         breakpoint: 576,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

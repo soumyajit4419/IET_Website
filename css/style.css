@@ -163,6 +163,36 @@ p {
 .slick-slide {
   outline: 0;
 }
+/*==== Slick Arrow Style ===*/
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+@media only screen and (max-width: 1200px) {
+  .slide-arrow {
+    display: none;
+  }
+}
+
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid blueviolet;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid blueviolet;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
 
 /*===== All Section Title Style =====*/
 .section_title .sub_title {
@@ -583,6 +613,15 @@ p {
   }
 }
 
+#home img {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 1000px) {
+  #home img {
+    opacity: 0.4;
+  }
+}
+
 .hero_shape {
   position: absolute;
   opacity: 0.39;
@@ -701,6 +740,13 @@ p {
 @media only screen and (min-width: 1400px) {
   .header_image .image {
     padding-left: 100px;
+  }
+}
+
+/* HardCoded 992 px experimentally for "What We Do" Section */
+@media only screen and ( max-width:991px) {
+  .image {
+    opacity: 1 !important ;
   }
 }
 
@@ -993,6 +1039,10 @@ p {
 .about_content {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(213, 131, 245, 0.671);
+  border-radius: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about_content {
