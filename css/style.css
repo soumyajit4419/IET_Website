@@ -613,6 +613,15 @@ p {
   }
 }
 
+#home img {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 1000px) {
+  #home img {
+    opacity: 0.4;
+  }
+}
+
 .hero_shape {
   position: absolute;
   opacity: 0.39;
