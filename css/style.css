@@ -704,6 +704,13 @@ p {
   }
 }
 
+/* HardCoded 992 px experimentally for "What We Do" Section */
+@media only screen and ( max-width:991px) {
+  .image {
+    opacity: 1 !important ;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_hero_content {
     padding-top: 150px;
@@ -993,6 +1000,10 @@ p {
 .about_content {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(213, 131, 245, 0.671);
+  border-radius: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about_content {
