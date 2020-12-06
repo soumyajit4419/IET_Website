@@ -2,7 +2,29 @@
   "team": [
     
     {
-      "Timestamp": "08/19/2020 22:43:43",
+      
+      "Name": "Gyan Prakash Karn",
+      "Position": "President",
+      "imagePath": "images/newTeam/gyanKarn.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/karnsometimes/",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/karngyan/",
+      "Github_Profile_Link": "https://github.com/karngyan",
+      "Instagram_Profile_Link": "https://instagram.com/karngyan",
+      "Email Address": "mail@karngyan.com"
+    },
+    {
+      
+      "Name": "Abhishek Aryan",
+      "Position": "Vice President",
+      "imagePath": "images/newTeam/abhishekAryan.jpg",
+      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100017581381618",
+      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhishek-aryan-98b104187",
+      "Github_Profile_Link": "https://github.com/aryanAbhishek18",
+      "Instagram_Profile_Link": "https://www.instagram.com/_abhishek_aryan/",
+      "Email Address": "aryan.abhishek1829@gmail.com"
+    },
+    {
+      
       "Name": "Ankit Gupta",
       "Position": "Vice-President",
       "imagePath": "images/newTeam/ankitGupta.jpeg",
@@ -13,7 +35,7 @@
       "Email Address": "i.ankitgupta25@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 00:06:34",
+      
       "Name": "Jasbinder Singh Loomba",
       "Position": "Director",
       "imagePath": "images/newTeam/jasbinderSinghLoomba.jpg",
@@ -44,7 +66,7 @@
       "Email Address": "amittiwary710@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 20:47:21",
+      
       "Name": "Vaibhav Raj Singh",
       "Position": "General Secretary",
       "imagePath": "images/newTeam/vaibhavRajSingh.jpg",
@@ -55,7 +77,7 @@
       "Email Address": "vaibhavrajsingh2001@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 13:52:05",
+      
       "Name": "Rashi Gupta",
       "Position": "General Secretary",
       "imagePath": "images/newTeam/RashiGupta.jpg",
@@ -66,7 +88,7 @@
       "Email Address": "rashi.gupta37@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 23:05:31",
+      
       "Name": "Swapnil Ghosh",
       "Position": "Joint Secretary",
       "imagePath": "images/newTeam/swapnilGhosh.jpeg",
@@ -77,7 +99,7 @@
       "Email Address": "goshrow@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 20:34:40",
+      
       "Name": "Aryan Khandelwal",
       "Position": "Joint Secretary",
       "imagePath": "images/newTeam/aryanKhandelwal.jpg",
@@ -88,7 +110,7 @@
       "Email Address": "aryankhandelwal29@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 21:10:21",
+      
       "Name": "Krishna Pratap Singh",
       "Position": "Treasurer",
       "imagePath": "images/newTeam/KrishnapratapSingh.jpg",
@@ -99,7 +121,7 @@
       "Email Address": "krishing1234@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 23:50:28",
+      
       "Name": "Shubhangi",
       "Position": "Event Head",
       "imagePath": "images/newTeam/Shubhangi.JPG",
@@ -110,7 +132,7 @@
       "Email Address": "shubhangijha250@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 13:46:42",
+      
       "Name": "Sajal Shraddha",
       "Position": "Event Head",
       "imagePath": "images/newTeam/sajalShraddha.jpg",
@@ -121,7 +143,7 @@
       "Email Address": "sshraddha3108@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 20:23:13",
+      
       "Name": "Nehal Srivastava",
       "Position": "Webmaster",
       "imagePath": "images/newTeam/nehalSrivastava.jpg",
@@ -132,7 +154,7 @@
       "Email Address": "nehalshrivashtava@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 20:27:56",
+      
       "Name": "Soumyajit Behera",
       "Position": "Web Master",
       "imagePath": "images/newTeam/soumyajitBehera.jpeg",
@@ -143,7 +165,7 @@
       "Email Address": "ashish454570@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 20:42:41",
+      
       "Name": "Saksham Arora",
       "Position": "Tech Lead",
       "imagePath": "images/newTeam/sakshamarora.jpg",
@@ -154,7 +176,7 @@
       "Email Address": "saksham20189575@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 16:04:58",
+      
       "Name": "Kushal Srivastava",
       "Position": "Tech Lead",
       "imagePath": "images/newTeam/kushalSrivastava.jpg",
@@ -165,7 +187,7 @@
       "Email Address": "kushrike@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 21:48:09",
+      
       "Name": "Abhay Charan Patro",
       "Position": "Technical Lead",
       "imagePath": "images/newTeam/abhayCharan.jpg",
@@ -176,7 +198,7 @@
       "Email Address": "abhaycharanpatro@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 21:55:06",
+      
       "Name": "Rahul Harlalka",
       "Position": "Tech Lead",
       "imagePath": "images/newTeam/RahulHarlalka.png",
@@ -187,7 +209,7 @@
       "Email Address": "rahulharlalka96@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 01:51:35",
+      
       "Name": "Tanmay Sinha",
       "Position": "Technical Lead",
       "imagePath": "images/newTeam/TanmaySinha.jpg",
@@ -208,7 +230,7 @@
       "Email Address": "atulya.arya06@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 22:23:26",
+      
       "Name": "Ritikesh Raj",
       "Position": "Public Relations Coordinator",
       "imagePath": "images/newTeam/ritikeshRaj.jpg",
@@ -219,7 +241,7 @@
       "Email Address": "ritikeshraj444@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 02:34:48",
+      
       "Name": "Rohan Nishant",
       "Position": "Public Relations Coordinator",
       "imagePath": "images/newTeam/rohanNishant.jpg",
@@ -230,7 +252,7 @@
       "Email Address": "rohan.nishant1999@gmail.com"
     },
     {
-      "Timestamp": "08/19/2020 23:17:29",
+      
       "Name": "Ayush Shah",
       "Position": "Executive Body member",
       "imagePath": "images/newTeam/ayushShah.jpeg",
@@ -241,7 +263,7 @@
       "Email Address": "shahayush457@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 00:09:01",
+      
       "Name": "Rishav Raj",
       "Position": "Executive Member",
       "imagePath": "images/newTeam/rishavRaj.jpg",
@@ -252,7 +274,7 @@
       "Email Address": "rishav.rajput34dtg@gmail.com"
     },
     {
-      "Timestamp": "08/20/2020 00:48:53",
+      
       "Name": "Tanweerul Haque",
       "Position": "Executive Body Member",
       "imagePath": "images/newTeam/tanweerulHaque.jpeg",
@@ -261,28 +283,6 @@
       "Github_Profile_Link": "https://github.com/TanweerulHaque",
       "Instagram_Profile_Link": "https://www.instagram.com/_baby69me_/",
       "Email Address": "tan.haque@gmail.com"
-    },
-    {
-      "Timestamp": "08/20/2020 00:53:56",
-      "Name": "Gyan Prakash Karn",
-      "Position": "President",
-      "imagePath": "images/newTeam/gyanKarn.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/karnsometimes/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/karngyan/",
-      "Github_Profile_Link": "https://github.com/karngyan",
-      "Instagram_Profile_Link": "https://instagram.com/karngyan",
-      "Email Address": "mail@karngyan.com"
-    },
-    {
-      "Timestamp": "08/20/2020 21:08:16",
-      "Name": "Abhishek Aryan",
-      "Position": "Vice President",
-      "imagePath": "images/newTeam/abhishekAryan.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100017581381618",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhishek-aryan-98b104187",
-      "Github_Profile_Link": "https://github.com/aryanAbhishek18",
-      "Instagram_Profile_Link": "https://www.instagram.com/_abhishek_aryan/",
-      "Email Address": "aryan.abhishek1829@gmail.com"
     }
   ]
 }
