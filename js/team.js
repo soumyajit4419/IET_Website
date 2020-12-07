@@ -10,10 +10,10 @@ $.ajax({
         <div class="team_image">
           <img src=${res.team[i].imagePath} alt="team" class="img-fluid">
           <ul class="social">
-            <li><a href="${res.team[i].Facebook_Profile_Link}" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="${res.team[i].Linkedin_Profile_Link}" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="${res.team[i].Github_Profile_Link}" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a href="${res.team[i].Instagram_Profile_Link}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="${res.team[i].Facebook_Profile_Link}" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="${res.team[i].Linkedin_Profile_Link}" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="${res.team[i].Github_Profile_Link}" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+            <li><a href="${res.team[i].Instagram_Profile_Link}" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="team_content">
