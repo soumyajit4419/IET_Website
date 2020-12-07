@@ -1,10 +1,7 @@
 /*===========================
      01.COMMON css 
 ===========================*/
-@font-face {
-  font-family: "product-sans";
-  src: url("../fonts/Product Sans Regular.ttf") format("opentype");
-}
+
 body {
   font-family: "product-sans";
   font-weight: normal;
@@ -268,7 +265,7 @@ p {
   border: 3px solid transparent;
   border-top-color: #cd3be0;
   -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
 }
 @media (max-width: 767px) {
   #loader {
@@ -285,8 +282,8 @@ p {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #795fb1;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 #loader:after {
   content: "";

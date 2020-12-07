@@ -11,19 +11,18 @@ $.ajax({
           <div class="col-lg-2 col-md-2 inc-pad">
           <div class="single_work">
             <div class="work_image">
-              <img src="./images/events/${res.events[i].imgUrl}" data-toggle="modal" data-target="#event${i}Modal" class="img-fluid" alt="event"/>
+              <img src="./images/events/${res.events[i].imgUrl}" data-toggle="modal" data-target="#event${i}Modal" class="img-fluid" alt="event" />
             </div>
           </div>
 
           <!--Modal-->
-          <div class="modal fade" id="event${i}Modal" tabindex="-1" role="dialog" aria-labelledby="event${i}ModalTitle"
-            aria-hidden="true">
+          <div class="modal fade" id="event${i}Modal" tabindex="-1" role="dialog" aria-labelledby="event${i}ModalTitle">
             <div class="modal-dialog modal-dialog-centered" role="">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="event${i}ModalTitle">${res.events[i].eventName}</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span>&times;</span>
                   </button>
                 </div>
                 <div class="modal-body  text-center">
@@ -36,7 +35,7 @@ $.ajax({
             </div>
           </div>
         </div>
-`)
+      `)
     }
 
   },

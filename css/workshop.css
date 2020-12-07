@@ -2,10 +2,7 @@ html,
 body {
   overflow-x: hidden;
 }
-@font-face {
-  font-family: "product-sans";
-  src: url("../fonts/Product Sans Regular.ttf") format("opentype");
-}
+
 body {
   font-family: "product-sans";
   font-weight: normal;
