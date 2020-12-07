@@ -1,12 +1,14 @@
 $(function () {
   "use strict";
 
-  //===== Prealoder=====//
+  //===== Preloader=====//
 
-  $(window).on("load", function (event) {
-    $("#preloader").delay(100).fadeOut();
+  $(window).on("load", function () {
+    setTimeout(function () {
+      var preLoder = $("#preloader");
+      preLoder.delay(200).fadeOut(500);
+    }, 100);
   });
-
   //===== Sticky=====//
 
   $(window).on("scroll", function (event) {
