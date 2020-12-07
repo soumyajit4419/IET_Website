@@ -17,7 +17,7 @@ $.ajax({
           </ul>
         </div>
         <div class="team_content">
-          <h4 class="team_name"><a>${res.team[i].Name}</a></h4>
+          <h4 class="team_name">${res.team[i].Name}</h4>
           <p>${res.team[i].Position}</p>
         </div>
       </div>
