@@ -1106,7 +1106,8 @@ p {
 }
 .single_work .work_image img {
   width: 100%;
-  height: 40vh;
+  height: 250px;
+  object-fit: cover;
 }
 .single_work .work_content {
   padding: 30px;
