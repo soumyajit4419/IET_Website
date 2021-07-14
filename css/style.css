@@ -1227,7 +1227,9 @@ p {
 }
 .single_team .team_image img {
   width: 100%;
-  height: 40vh;
+  height: 250px;
+  object-fit: contain;
+  background-color: rgb(255, 255, 255);
 }
 .single_team .team_image .social {
   position: absolute;
