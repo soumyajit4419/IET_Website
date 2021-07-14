@@ -1,288 +1,234 @@
 {
-  "team": [
-    
-    {
-      
-      "Name": "Gyan Prakash Karn",
-      "Position": "President",
-      "imagePath": "images/newTeam/gyanKarn.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/karnsometimes/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/karngyan/",
-      "Github_Profile_Link": "https://github.com/karngyan",
-      "Instagram_Profile_Link": "https://instagram.com/karngyan",
-      "Email Address": "mail@karngyan.com"
-    },
-    {
-      
-      "Name": "Abhishek Aryan",
-      "Position": "Vice President",
-      "imagePath": "images/newTeam/abhishekAryan.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100017581381618",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhishek-aryan-98b104187",
-      "Github_Profile_Link": "https://github.com/aryanAbhishek18",
-      "Instagram_Profile_Link": "https://www.instagram.com/_abhishek_aryan/",
-      "Email Address": "aryan.abhishek1829@gmail.com"
-    },
-    {
-      
-      "Name": "Ankit Gupta",
-      "Position": "Vice-President",
-      "imagePath": "images/newTeam/ankitGupta.jpeg",
-      "Facebook_Profile_Link": "https://www.facebook.com/Ankit275gupta/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/i-ankit25/",
-      "Github_Profile_Link": "https://github.com/i-ankit25",
-      "Instagram_Profile_Link": "https://www.instagram.com/ankitgupta.27/",
-      "Email Address": "i.ankitgupta25@gmail.com"
-    },
-    {
-      
-      "Name": "Jasbinder Singh Loomba",
-      "Position": "Director",
-      "imagePath": "images/newTeam/jasbinderSinghLoomba.jpg",
-      "Facebook_Profile_Link": "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
-      "Github_Profile_Link": "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
-      "Instagram_Profile_Link": "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
-      "Email Address": "princeloomba6@gmail.com"
-    },
-    {
-      "Name": "Archit Gupta",
-      "Position": "Sr. Executive Member",
-      "imagePath": "images/newTeam/archit.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/archit.gupta.4077",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/archit4077sh/",
-      "Github_Profile_Link": "https://github.com/archit4077sh",
-      "Instagram_Profile_Link": "https://www.instagram.com/archit4077/",
-      "Email Address": "architgupta4077sh@gmail.com"
-    },
-    {
-      "Name": "Amit Kumar Tiwary",
-      "Position": "Sr. Executive Member",
-      "imagePath": "images/newTeam/Amit.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/akt114",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/akt114/",
-      "Github_Profile_Link": "https://github.com/akt114",
-      "Instagram_Profile_Link": "https://www.instagram.com/_amit_114/",
-      "Email Address": "amittiwary710@gmail.com"
-    },
-    {
-      
-      "Name": "Vaibhav Raj Singh",
-      "Position": "General Secretary",
-      "imagePath": "images/newTeam/vaibhavRajSingh.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/vaibhavraj.singh.902",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/vaibhavrajsingh2001",
-      "Github_Profile_Link": "https://github.com/vaibhavrajsingh2001",
-      "Instagram_Profile_Link": "https://www.instagram.com/vaibhavrajsingh2001/",
-      "Email Address": "vaibhavrajsingh2001@gmail.com"
-    },
-    {
-      
-      "Name": "Rashi Gupta",
-      "Position": "General Secretary",
-      "imagePath": "images/newTeam/RashiGupta.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/rashi.gupta.58/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/rashi-gupta-92505b193/",
-      "Github_Profile_Link": "https://github.com/rashigupta37",
-      "Instagram_Profile_Link": "https://www.instagram.com/rashiii_gupta/",
-      "Email Address": "rashi.gupta37@gmail.com"
-    },
-    {
-      
-      "Name": "Swapnil Ghosh",
-      "Position": "Joint Secretary",
-      "imagePath": "images/newTeam/swapnilGhosh.jpeg",
-      "Facebook_Profile_Link": "https://www.facebook.com/ghoshrow",
-      "Linkedin_Profile_Link": "https://linkedin.com/in/goshrow",
-      "Github_Profile_Link": "https://github.com/GOSHROW",
-      "Instagram_Profile_Link": "https://instagram.com/swapnil._ghosh",
-      "Email Address": "goshrow@gmail.com"
-    },
-    {
-      
-      "Name": "Aryan Khandelwal",
-      "Position": "Joint Secretary",
-      "imagePath": "images/newTeam/aryanKhandelwal.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100005828342314",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/aryan-khandelwal-467339178/",
-      "Github_Profile_Link": "https://github.com/aryan29",
-      "Instagram_Profile_Link": "https://www.instagram.com/_crazy__anyone/",
-      "Email Address": "aryankhandelwal29@gmail.com"
-    },
-    {
-      
-      "Name": "Krishna Pratap Singh",
-      "Position": "Treasurer",
-      "imagePath": "images/newTeam/KrishnapratapSingh.jpg",
-      "Facebook_Profile_Link": "https://m.facebook.com/krishnapratap.singh.3557440",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
-      "Github_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
-      "Instagram_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a64231671",
-      "Email Address": "krishing1234@gmail.com"
-    },
-    {
-      
-      "Name": "Shubhangi",
-      "Position": "Event Head",
-      "imagePath": "images/newTeam/Shubhangi.JPG",
-      "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100010710163805",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/shubhangi-jha-05168a1b1",
-      "Github_Profile_Link": "https://github.com/ShubhangiJha",
-      "Instagram_Profile_Link": "https://www.instagram.com/shubhangi_jha_10/",
-      "Email Address": "shubhangijha250@gmail.com"
-    },
-    {
-      
-      "Name": "Sajal Shraddha",
-      "Position": "Event Head",
-      "imagePath": "images/newTeam/sajalShraddha.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/sajalshraddha318/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/sajal-shraddha-343b011b4/",
-      "Github_Profile_Link": "https://github.com/CosmosGirlShraddha",
-      "Instagram_Profile_Link": "https://www.instagram.com/shradden/",
-      "Email Address": "sshraddha3108@gmail.com"
-    },
-    {
-      
-      "Name": "Nehal Srivastava",
-      "Position": "Webmaster",
-      "imagePath": "images/newTeam/nehalSrivastava.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/nehal.shrivashtava/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/nehal13/",
-      "Github_Profile_Link": "https://github.com/nehal-backspace",
-      "Instagram_Profile_Link": "https://www.instagram.com/jersey._13/",
-      "Email Address": "nehalshrivashtava@gmail.com"
-    },
-    {
-      
-      "Name": "Soumyajit Behera",
-      "Position": "Web Master",
-      "imagePath": "images/newTeam/soumyajitBehera.jpeg",
-      "Facebook_Profile_Link": "https://www.facebook.com/soumyajit.behera.397",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/soumyajit4419/",
-      "Github_Profile_Link": "https://github.com/soumyajit4419",
-      "Instagram_Profile_Link": "https://www.instagram.com/s.o.u.m.y.a_j.i.t/",
-      "Email Address": "ashish454570@gmail.com"
-    },
-    {
-      
-      "Name": "Saksham Arora",
-      "Position": "Tech Lead",
-      "imagePath": "images/newTeam/sakshamarora.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/saksham.arora.5686322/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/saksham-arora-348487167/",
-      "Github_Profile_Link": "https://github.com/saksham20189575",
-      "Instagram_Profile_Link": "https://www.instagram.com/sakshu9575/",
-      "Email Address": "saksham20189575@gmail.com"
-    },
-    {
-      
-      "Name": "Kushal Srivastava",
-      "Position": "Tech Lead",
-      "imagePath": "images/newTeam/kushalSrivastava.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/kushal.srivastava.916",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/kushrike/",
-      "Github_Profile_Link": "https://github.com/kushrike",
-      "Instagram_Profile_Link": "https://www.instagram.com/the.archer.of.infamy/",
-      "Email Address": "kushrike@gmail.com"
-    },
-    {
-      
-      "Name": "Abhay Charan Patro",
-      "Position": "Technical Lead",
-      "imagePath": "images/newTeam/abhayCharan.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/abhay.patro.37/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/abhay-patro-46b811153/",
-      "Github_Profile_Link": "https://github.com/abhaypatro",
-      "Instagram_Profile_Link": "https://www.instagram.com/abhaypatro/",
-      "Email Address": "abhaycharanpatro@gmail.com"
-    },
-    {
-      
-      "Name": "Rahul Harlalka",
-      "Position": "Tech Lead",
-      "imagePath": "images/newTeam/RahulHarlalka.png",
-      "Facebook_Profile_Link": "https://www.facebook.com/rahul.harlalka.90",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/rahul-harlalka-956a04185/",
-      "Github_Profile_Link": "https://github.com/rahulharlalka",
-      "Instagram_Profile_Link": "https://www.instagram.com/rahul_harlalka96/",
-      "Email Address": "rahulharlalka96@gmail.com"
-    },
-    {
-      
-      "Name": "Tanmay Sinha",
-      "Position": "Technical Lead",
-      "imagePath": "images/newTeam/TanmaySinha.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/tanmaysinhaBIT/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/tanmay-sinha-bit/",
-      "Github_Profile_Link": "https://github.com/tanmay-sinha",
-      "Instagram_Profile_Link": "https://www.instagram.com/tanmay.sinha0509",
-      "Email Address": "alokratn0001@gmail.com"
-    },
-    {
-      "Name": "Atulya Arya",
-      "Position": "Public Relations Coordinator",
-      "imagePath": "images/newTeam/atulyaArya.jpeg",
-      "Facebook_Profile_Link": "https://m.facebook.com/atulya.arya.14",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/atulya-arya-794280186",
-      "Github_Profile_Link": "https://github.com/atulya06",
-      "Instagram_Profile_Link": "https://www.instagram.com/atulya.arya06",
-      "Email Address": "atulya.arya06@gmail.com"
-    },
-    {
-      
-      "Name": "Ritikesh Raj",
-      "Position": "Public Relations Coordinator",
-      "imagePath": "images/newTeam/ritikeshRaj.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/ritikesh.raj.rk.90",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/ritikesh-raj-630369166",
-      "Github_Profile_Link": "https://github.com/shadow-rogue",
-      "Instagram_Profile_Link": "https://www.instagram.com/_.alpha.carinae_/",
-      "Email Address": "ritikeshraj444@gmail.com"
-    },
-    {
-      
-      "Name": "Rohan Nishant",
-      "Position": "Public Relations Coordinator",
-      "imagePath": "images/newTeam/rohanNishant.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/rohan.nishant.56",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/rohan-nishant-2b05b7146/",
-      "Github_Profile_Link": "https://github.com/rondon1947",
-      "Instagram_Profile_Link": "https://www.instagram.com/thedarkknight.7/",
-      "Email Address": "rohan.nishant1999@gmail.com"
-    },
-    {
-      
-      "Name": "Ayush Shah",
-      "Position": "Executive Body member",
-      "imagePath": "images/newTeam/ayushShah.jpeg",
-      "Facebook_Profile_Link": "https://www.facebook.com/ayush.shah.98700098/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/ayushshah1234/",
-      "Github_Profile_Link": "https://github.com/shahayush457",
-      "Instagram_Profile_Link": "https://www.instagram.com/mr.ayush_shah/",
-      "Email Address": "shahayush457@gmail.com"
-    },
-    {
-      
-      "Name": "Rishav Raj",
-      "Position": "Executive Member",
-      "imagePath": "images/newTeam/rishavRaj.jpg",
-      "Facebook_Profile_Link": "https://www.facebook.com/rishav.raj.737448/",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/rishav-raj-1a5505198/",
-      "Github_Profile_Link": "https://github.com/Rishav139",
-      "Instagram_Profile_Link": "https://www.instagram.com/_iam._rishav/",
-      "Email Address": "rishav.rajput34dtg@gmail.com"
-    },
-    {
-      
-      "Name": "Tanweerul Haque",
-      "Position": "Executive Body Member",
-      "imagePath": "images/newTeam/tanweerulHaque.jpeg",
-      "Facebook_Profile_Link": "https://www.facebook.com/not.that.tanweer",
-      "Linkedin_Profile_Link": "https://www.linkedin.com/in/tanweerulhaque/",
-      "Github_Profile_Link": "https://github.com/TanweerulHaque",
-      "Instagram_Profile_Link": "https://www.instagram.com/_baby69me_/",
-      "Email Address": "tan.haque@gmail.com"
-    }
-  ]
+    "team": [
+        {
+            "Name": "Tanmay Sinha",
+            "Position": "President",
+            "imagePath": "images/newTeam/tanmaySinha.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/tanmaysinhaBIT",
+            "Linkedin_Profile_Link": "https://www.facebook.com/tanmaysinhaBIT/",
+            "Github_Profile_Link": "https://github.com/tanmay-sinha",
+            "Instagram_Profile_Link": "https://www.instagram.com/tanmay.sinha0509",
+            "Email Address": "alokratn001@gmail.com"
+        },
+        {
+            "Name": "Vaibhav Raj Singh",
+            "Position": "Vice President",
+            "imagePath": "images/newTeam/vaibhavRajSingh.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/vaibhavraj.singh.902",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/vaibhavrajsingh2001",
+            "Github_Profile_Link": "https://github.com/vaibhavrajsingh2001",
+            "Instagram_Profile_Link": "https://www.instagram.com/vaibhavrajsingh2001/",
+            "Email Address": "vaibhavrajsingh2001@gmail.com"
+        },
+        {
+            "Name": "Swapnil Ghosh",
+            "Position": "Vice President",
+            "imagePath": "images/newTeam/swapnilGhosh.jpeg",
+            "Facebook_Profile_Link": "https://doing.goshrow.tech",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/goshrow",
+            "Github_Profile_Link": "https://github.com/GOSHROW",
+            "Instagram_Profile_Link": "https://doing.goshrow.tech",
+            "Email Address": "goshrow@gmail.com"
+        },
+        {
+            "Name": "Aryan Khandelwal",
+            "Position": "Vice President",
+            "imagePath": "images/newTeam/aryanKhandelwal.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100005828342314",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/aryan-khandelwal-467339178/",
+            "Github_Profile_Link": "https://github.com/aryan29",
+            "Instagram_Profile_Link": "https://www.instagram.com/_crazy__anyone/",
+            "Email Address": "aryankhandelwal29@gmail.com"
+        },
+        {
+            "Name": "Krishna Pratap Singh",
+            "Position": "Director",
+            "imagePath": "images/newTeam/krishnapratapSingh.jpg",
+            "Facebook_Profile_Link": "https://m.facebook.com/krishnapratap.singh.3557440",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
+            "Github_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
+            "Instagram_Profile_Link": "https://www.linkedin.com/in/krishna-pratap-singh-3a64231671",
+            "Email Address": "krishing1234@gmail.com"
+        },
+        {
+            "Name": "Vibhu Bhatia",
+            "Position": "Director",
+            "imagePath": "images/newTeam/vibhuBhatia.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100008940287252",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/vibhu-bhatia",
+            "Github_Profile_Link": "https://github.com/vibhubhatia007",
+            "Instagram_Profile_Link": "https://www.instagram.com/vibhu.669",
+            "Email Address": "vibhubhatia0007@gmail.com"
+        },
+        {
+            "Name": "Gaurav Bhagchandani",
+            "Position": "General Secretary",
+            "imagePath": "images/newTeam/gauravBhagchandani.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/gaurav.bhagchandani.39",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/gaurav-bhagchandani-710127168",
+            "Github_Profile_Link": "https://github.com/gauravbhag51",
+            "Instagram_Profile_Link": "",
+            "Email Address": "gauravbhagchandani51@gmail.com"
+        },
+        {
+            "Name": "Vivek Pattanayak",
+            "Position": "General Secretary",
+            "imagePath": "images/newTeam/vivekPattanayak.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/vivek.pattanayak.73",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/vivek-pattanayak-8225021a0",
+            "Github_Profile_Link": "https://github.com/VivekPattanayak",
+            "Instagram_Profile_Link": "https://www.instagram.com/vivek__ig",
+            "Email Address": "pattanayak.vivek@gmail.com"
+        },
+        {
+            "Name": "Satyam Mishra",
+            "Position": "Joint Secretary",
+            "imagePath": "images/newTeam/satyamMishra.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/satyammishraxx",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/satyam-mishra-2baa751b2",
+            "Github_Profile_Link": "https://github.com/triden005",
+            "Instagram_Profile_Link": "https://www.instagram.com/satyam20005",
+            "Email Address": "satyam552000@gmail.com"
+        },
+        {
+            "Name": "Sayan Maiti",
+            "Position": "Joint Secretary",
+            "imagePath": "images/newTeam/sayanMaiti.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/sayan-maiti-a500271bb",
+            "Github_Profile_Link": "https://github.com/SayangitBIT",
+            "Instagram_Profile_Link": "",
+            "Email Address": "maitisayan24@gmail.com"
+        },
+        {
+            "Name": "Utkarsh Kumar Singh",
+            "Position": "Treasurer",
+            "imagePath": "images/newTeam/utkarshKumarSingh.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100006960278928",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/utkarsh-kumar-singh-8a89581b6",
+            "Github_Profile_Link": "https://github.com/singhutkarsh902",
+            "Instagram_Profile_Link": "https://www.instagram.com/singh_utkarsh902",
+            "Email Address": "singhutkarsh902@gmail.com"
+        },
+        {
+            "Name": "Rohan",
+            "Position": "Event Head",
+            "imagePath": "images/newTeam/rohan.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/rohan-beowulf",
+            "Github_Profile_Link": "https://github.com/beowulf-rohan",
+            "Instagram_Profile_Link": "https://www.instagram.com/could_be_rohan",
+            "Email Address": "btech10343.19@bitmesra.ac.in"
+        },
+        {
+            "Name": "Shubham Agarwal",
+            "Position": "Event Head",
+            "imagePath": "images/newTeam/shubhamAgarwal.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100047151369980",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/shubham-agarwal-4ab886192",
+            "Github_Profile_Link": "https://github.com/Shubham04954",
+            "Instagram_Profile_Link": "",
+            "Email Address": "shubhamagr04@gmail.com"
+        },
+        {
+            "Name": "Ayush Acharya",
+            "Position": "Webmaster",
+            "imagePath": "images/newTeam/ayushAcharya.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/ayush-acharya-5a2178203",
+            "Github_Profile_Link": "https://github.com/jash139",
+            "Instagram_Profile_Link": "https://www.instagram.com/_ayushacharya",
+            "Email Address": "ayushacharya1309@gmail.com"
+        },
+        {
+            "Name": "Lakshya Srivastava",
+            "Position": "Webmaster",
+            "imagePath": "images/newTeam/lakshyaSrivastava.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/lakshya-srivastava-020062193",
+            "Github_Profile_Link": "https://github.com/Lakshya020801",
+            "Instagram_Profile_Link": "",
+            "Email Address": "lakshya.sr@gmail.com"
+        },
+        {
+            "Name": "Dhrub Kumar",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/dhrubKumar.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/dhrub-kumar-689567175",
+            "Github_Profile_Link": "https://github.com/dhruv7888",
+            "Instagram_Profile_Link": "",
+            "Email Address": "dhruv7888@gmail.com"
+        },
+        {
+            "Name": "Kapil Kungwani",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/kapilKungwani.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/kapil.kungwani.5",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/kapil-kungwani-kk1820",
+            "Github_Profile_Link": "https://github.com/kapilkungwani",
+            "Instagram_Profile_Link": "",
+            "Email Address": "kapilkungwani1820@gmail.com"
+        },
+        {
+            "Name": "Shaswat Pandey",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/shaswatPandey.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/shaswat-pandey-a381601a1",
+            "Github_Profile_Link": "https://github.com/shaswatkumar362",
+            "Instagram_Profile_Link": "https://www.instagram.com/shaswatkumar362",
+            "Email Address": "shaswatkumar362@gmail.com"
+        },
+        {
+            "Name": "Swati Priya",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/swatiPriya.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/swati-priya-a3452b1a5",
+            "Github_Profile_Link": "https://github.com/SwatiPriya2805",
+            "Instagram_Profile_Link": "",
+            "Email Address": "swatipriya2805@gmail.com"
+        },
+        {
+            "Name": "Vatsalya Goswami",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/vatsalyaGoswami.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/vatsalya.goswami",
+            "Linkedin_Profile_Link": "",
+            "Github_Profile_Link": "https://github.com/VatsalyaGoswami",
+            "Instagram_Profile_Link": "https://www.instagram.com/the_vatsalya__",
+            "Email Address": "vatsalya559@gmail.com"
+        },
+        {
+            "Name": "Aditya Raj Choudhary",
+            "Position": "Public Relations Coordinator",
+            "imagePath": "images/newTeam/adityaRajChoudhary.jpg",
+            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100013057904392",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/aditya-raj-choudhary-066532190",
+            "Github_Profile_Link": "https://github.com/adityaarc",
+            "Instagram_Profile_Link": "https://www.instagram.com/arcovid_01",
+            "Email Address": "arc.adityarajchoudhary@gmail.com"
+        },
+        {
+            "Name": "Kushal Srivastava",
+            "Position": "Senior Executive member",
+            "imagePath": "images/newTeam/kushalSrivastava.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/kushrike",
+            "Github_Profile_Link": "https://www.github.com/kushrike",
+            "Instagram_Profile_Link": "",
+            "Email Address": "kushrike@gmail.com"
+        },
+        {
+            "Name": "Rahul Harlalka",
+            "Position": "Senior Executive member",
+            "imagePath": "images/newTeam/rahulHarlalka.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/rahul-harlalka-956a04185",
+            "Github_Profile_Link": "https://github.com/rahulharlalka",
+            "Instagram_Profile_Link": "",
+            "Email Address": "rahulharlalka96@gmail.com"
+        }
+    ]
 }
