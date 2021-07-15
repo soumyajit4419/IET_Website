@@ -34,10 +34,10 @@
             "Name": "Aryan Khandelwal",
             "Position": "Vice President",
             "imagePath": "images/newTeam/aryanKhandelwal.jpg",
-            "Facebook_Profile_Link": "https://www.facebook.com/profile.php?id=100005828342314",
-            "Linkedin_Profile_Link": "https://www.linkedin.com/in/aryan-khandelwal-467339178/",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/mwlite/in/aryan-khandelwal29",
             "Github_Profile_Link": "https://github.com/aryan29",
-            "Instagram_Profile_Link": "https://www.instagram.com/_crazy__anyone/",
+            "Instagram_Profile_Link": "",
             "Email Address": "aryankhandelwal29@gmail.com"
         },
         {
@@ -169,6 +169,16 @@
             "Github_Profile_Link": "https://github.com/kapilkungwani",
             "Instagram_Profile_Link": "",
             "Email Address": "kapilkungwani1820@gmail.com"
+        },
+        {
+            "Name": "Kartik Agarwal",
+            "Position": "Tech Lead",
+            "imagePath": "images/newTeam/kartikAgarwal.jpg",
+            "Facebook_Profile_Link": "",
+            "Linkedin_Profile_Link": "https://www.linkedin.com/in/kartik-agarwal-32a05b184",
+            "Github_Profile_Link": "https://github.com/kartik17agarwal",
+            "Instagram_Profile_Link": "",
+            "Email Address": "kartik17agarwal@gmail.com"
         },
         {
             "Name": "Shaswat Pandey",
