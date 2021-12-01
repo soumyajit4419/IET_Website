@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://iet.bitmesra.dev//sitemap.xml
